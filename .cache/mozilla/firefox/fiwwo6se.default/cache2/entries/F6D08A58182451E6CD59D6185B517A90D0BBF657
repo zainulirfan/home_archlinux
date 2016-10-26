@@ -689,8 +689,8 @@ Tom McDonald&rsquo;s <a href="https://github.com/tommcdo/vim-exchange">exchange 
 
   </body>
 </html>
-ÎÏï      XjcXjf=
-™X–Ð       :http://vimcasts.org/episodes/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+‡,aï      X†/X†0=
+­kX–Ð       :http://vimcasts.org/episodes/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
 x-amz-id-2: VODx+tbgZXoFtVHGedRAdgcf7oGJWdOZR61uGY4of+rDu0qCKRPn45iXdlJGSnpe2QbqgH4qzyA=
 x-amz-request-id: 172E1A1B9C836839
 Date: Wed, 26 Oct 2016 07:33:37 GMT
@@ -709,4 +709,4 @@ Etag: "44e051a6f2a1b872389d275138efb960"
 Content-Type: text/html
 Content-Length: 20024
 Server: AmazonS3
- charset windows-1252 uncompressed-len 0 predictor::resource-count 5 predictor::http://vimcasts.org/stylesheets/vimcasts.css 1,1,1477470819,4096 predictor::http://vimcasts.org/javascripts/modernizr.js 1,1,1477470819,4096 predictor::http://vimcasts.org/javascripts/all.js 1,1,1477470819,4096 predictor::http://www.google-analytics.com/ga.js 1,1,1477470819,4096 predictor::http://vimcasts.org/icomoon/fonts/icomoon.woff?hkjmps 1,1,1477470819,4096   N8
+ charset windows-1252 uncompressed-len 0 predictor::resource-count 5 predictor::http://vimcasts.org/stylesheets/vimcasts.css 1,3,1477477935,4096 predictor::http://vimcasts.org/javascripts/modernizr.js 1,3,1477477935,4096 predictor::http://vimcasts.org/javascripts/all.js 1,3,1477477935,4096 predictor::http://www.google-analytics.com/ga.js 1,3,1477477935,4096 predictor::http://vimcasts.org/icomoon/fonts/icomoon.woff?hkjmps 1,2,1477476534,4096   N8

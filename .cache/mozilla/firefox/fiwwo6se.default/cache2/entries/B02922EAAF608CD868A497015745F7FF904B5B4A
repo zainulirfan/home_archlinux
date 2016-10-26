@@ -681,8 +681,8 @@ ________________________________________________________________________________
   </body>
 </html>
 
-B!FΩÅ      X(X(=
-k"XT|   =    :http://vimcasts.org/episodes/aligning-text-with-tabular-vim/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+»ÇVÄΩÅ      XÅ¿XÅ√=
+©NXT|   =    :http://vimcasts.org/episodes/aligning-text-with-tabular-vim/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
 x-amz-id-2: IU8tq6WChF+1/xsMQPAdVzu+hXZpGXXsh6HvvFvusyJbOPcS/+nE95fhrQMN0Vy2VC0e9PpZkLI=
 x-amz-request-id: E48BFD72C3F068C3
 Date: Wed, 26 Oct 2016 02:50:36 GMT
@@ -701,4 +701,4 @@ Etag: "fa2078a2baa5f62e8b6298dcf9e406ca"
 Content-Type: text/html
 Content-Length: 31227
 Server: AmazonS3
- charset windows-1252 uncompressed-len 0 predictor::resource-count 9 predictor::http://vimcasts.org/stylesheets/vimcasts.css 1,1,1477453838,4097 predictor::http://vimcasts.org/javascripts/modernizr.js 1,1,1477453838,4097 predictor::http://vimcasts.org/images/posters/alignment.png 1,1,1477453838,4097 predictor::http://vimcasts.org/images/practical-vim/practical-vim-cover-550.jpg 1,1,1477453838,4097 predictor::http://vimcasts.org/images/thoughtbot-robot-logo.png 1,1,1477453838,4097 predictor::http://vimcasts.org/javascripts/all.js 1,1,1477453838,4097 predictor::http://www.google-analytics.com/ga.js 1,1,1477453838,4096 predictor::http://vimcasts.org/images/vimcasts-logo.svg 1,1,1477453838,4097 predictor::http://vimcasts.org/fonts/AlternateGothicNo3.woff 1,1,1477453838,4097   y˚
+ charset windows-1252 uncompressed-len 0 predictor::resource-count 9 predictor::http://vimcasts.org/stylesheets/vimcasts.css 1,2,1477476800,20481 predictor::http://vimcasts.org/javascripts/modernizr.js 1,2,1477476800,20481 predictor::http://vimcasts.org/images/posters/alignment.png 1,2,1477476800,20481 predictor::http://vimcasts.org/images/practical-vim/practical-vim-cover-550.jpg 1,1,1477453838,16385 predictor::http://vimcasts.org/images/thoughtbot-robot-logo.png 1,1,1477453838,16385 predictor::http://vimcasts.org/javascripts/all.js 1,2,1477476800,20481 predictor::http://www.google-analytics.com/ga.js 1,2,1477476800,20480 predictor::http://vimcasts.org/images/vimcasts-logo.svg 1,1,1477453838,16385 predictor::http://vimcasts.org/fonts/AlternateGothicNo3.woff 1,1,1477453838,16385   y˚

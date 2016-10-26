@@ -326,4 +326,82 @@ TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_D
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
 TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2f1d35cfb-7184-4608-bea8-f6c2d3c605ff, received SAVE YOURSELF DONE [Success = True]
 
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, smplayer)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 24fdb84f1-815c-425a-b9e6-982759462a5c, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 24fdb84f1-815c-425a-b9e6-982759462a5c exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 11250)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 265a9f141-e45d-48e7-9cc1-0069ba0dd026, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, smplayer)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2af1d530d-09a0-4d31-bf53-a258ca5f8efb, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2af1d530d-09a0-4d31-bf53-a258ca5f8efb exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, smplayer)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:680] xfsm_properties_remove(): -> Removing (DiscardCommand)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 265ab8107-e37d-4951-9548-da0105a1d95a, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 265ab8107-e37d-4951-9548-da0105a1d95a exited, removing from session.
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 12480)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2d709f1e4-0ecf-46a5-9158-85473b85344b, received SAVE YOURSELF DONE [Success = True]
+
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
+
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 12642)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2d2c70fdd-6365-44ae-874b-ffb58291e986, received SAVE YOURSELF DONE [Success = True]
+
 TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): entering

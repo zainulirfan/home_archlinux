@@ -5,6 +5,7 @@ set laststatus=2
 set t_Co=256
 set mouse=a
 set confirm
+set hidden
 syntax enable
 
 " Setting for Vundle
@@ -23,6 +24,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mbbill/undotree'
 Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-unimpaired'
 
 "NERDTreePosition
 let g:NERDTreeWinPos='right'
@@ -82,9 +84,11 @@ nmap <space>c :PluginInstall<CR>
 nmap <space>so :source %<CR>
 nmap <space>ve :e ~/.vimrc<CR>
 nmap <space>ve! :e! ~/.vimrc<CR>
-nmap <C-Up> ddkP
-vmap <C-Down> xp`[V`]
-vmap <C-Up> xkP`[V`]
+"Unimpaired
+nmap <C-Up> [e
+nmap <C-Down> ]e
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
 
 " Netrw
 nmap <space>vx :Vexplore<CR>

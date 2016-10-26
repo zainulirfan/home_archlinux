@@ -10,6 +10,7 @@ application/zip=engrampa.desktop;
 video/3gpp=smplayer_enqueue.desktop;
 image/png=ristretto.desktop;
 application/x-compressed-tar=engrampa.desktop;
+video/ogg=mpv.desktop;
 
 [Default Applications]
 video/mp4=vlc.desktop

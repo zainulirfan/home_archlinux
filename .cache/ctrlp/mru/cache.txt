@@ -1,10 +1,10 @@
+/home/mohammad/.proj/a.py
+/home/mohammad/.proj/b.py
 /home/mohammad/.vimrc
 /home/mohammad/.tmux.conf
 /home/mohammad/.zshrc
-/home/mohammad/.proj/a.py
 /home/mohammad/Documents/sheetshet-emmet.pdf
 /home/mohammad/Videos/alignment.ogv
-/home/mohammad/.proj/b.py
 /home/mohammad/.xinitrc
 /home/mohammad/.proj/.swp
 /home/mohammad/proj/a.py

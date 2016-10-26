@@ -17,6 +17,14 @@
 $
 
 # Command Line History (newest to oldest):
+:h vimgrep
+|2,0,1477477481,,"h vimgrep"
+:h argdo
+|2,0,1477477463,,"h argdo"
+:vimgrep
+|2,0,1477477223,,"vimgrep"
+:enew 
+|2,0,1477477079,,"enew "
 :cd /var
 |2,0,1477470260,,"cd /var"
 :h NERDTree
@@ -57,8 +65,6 @@ $
 |2,0,1477454587,,"p"
 :PluginInstall
 |2,0,1477454467,,"PluginInstall"
-:enew 
-|2,0,1477454281,,"enew "
 :enew q
 |2,0,1477454263,,"enew q"
 :enew 1
@@ -111,22 +117,16 @@ $
 |2,0,1477442505,,"ls"
 :bd 1
 |2,0,1477442503,,"bd 1"
-:enew hah
-|2,0,1477442366,,"enew hah"
-:bd 			
-|2,0,1477442355,,"bd 			"
-:enew haha
-|2,0,1477442338,,"enew haha"
 
 # Search String History (newest to oldest):
+? \$\(cursor\|select\)\$
+|2,1,1477475787,,"\\$\\(cursor\\|select\\)\\$"
 ? @$
 |2,1,1477470209,,"@$"
 ?/left
 |2,1,1477469818,47,"left"
 ?/position
 |2,1,1477469686,47,"position"
-? \$\(cursor\|select\)\$
-|2,1,1477469648,,"\\$\\(cursor\\|select\\)\\$"
 ?/location
 |2,1,1477468685,47,"location"
 ??NERDTree
@@ -158,38 +158,45 @@ $
 "0	LINE	0
 	
 |3,0,0,1,1,0,1477470264,""
-""1	LINE	0
+"1	LINE	0
+	nmap <C-Up> ddkP
 	vmap <C-Down> xp`[V`]
-|3,1,1,1,1,0,1477471396,"vmap <C-Down> xp`[V`]"
+	vmap <C-Up> xkP`[V`]
+|3,0,1,1,3,0,1477476334,"nmap <C-Up> ddkP","vmap <C-Down> xp`[V`]","vmap <C-Up> xkP`[V`]"
 "2	LINE	0
-	vmap <C-Down> xp`[V`]
-|3,0,2,1,1,0,1477471396,"vmap <C-Down> xp`[V`]"
+	satu
+|3,0,2,1,1,0,1477475777,"satu"
 "3	LINE	0
-	vnmap <C-Up> ddkP
-	map <C-Down> xp`[V`]
-|3,0,3,1,2,0,1477471320,"vnmap <C-Up> ddkP","map <C-Down> xp`[V`]"
-"4	LINE	0
-	vnmap <C-Up> ddkP
-	map <C-Down> xp`[V`]
-|3,0,4,1,2,0,1477471313,"vnmap <C-Up> ddkP","map <C-Down> xp`[V`]"
-"5	CHAR	0
-	nmap <C-Up> ddkP
 	
-|3,0,5,0,2,0,1477471311,"nmap <C-Up> ddkP",""
-"6	LINE	0
-	nmap <space>ve! :e! ~/.vimrc<CR>
-	nmap <C-Up> ddkP
-|3,0,6,1,2,0,1477471218,"nmap <space>ve! :e! ~/.vimrc<CR>","nmap <C-Up> ddkP"
+|3,0,3,1,1,0,1477475777,""
+"4	LINE	0
+	tiga
+	empat
+	lima
+	enamdua
+|3,0,4,1,4,0,1477475773,"tiga","empat","lima","enamdua"
+"5	LINE	0
+	tiga
+	empat
+	lima
+	enamdua
+|3,0,5,1,4,0,1477475772,"tiga","empat","lima","enamdua"
+"6	CHAR	0
+	tiga
+	empat
+	lima
+	enam
+|3,0,6,0,4,0,1477475771,"tiga","empat","lima","enam"
 "7	LINE	0
-	nmap <space>ve! :e! ~/.vimrc<CR>
-	nmap <C-Up> ddkP
-|3,0,7,1,2,0,1477471217,"nmap <space>ve! :e! ~/.vimrc<CR>","nmap <C-Up> ddkP"
+	vmap <C-Down> xp`[V`]
+|3,0,7,1,1,0,1477471396,"vmap <C-Down> xp`[V`]"
 "8	LINE	0
 	vmap <C-Down> xp`[V`]
-|3,0,8,1,1,0,1477471210,"vmap <C-Down> xp`[V`]"
+|3,0,8,1,1,0,1477471396,"vmap <C-Down> xp`[V`]"
 "9	LINE	0
-	vmap <C-Down> xp`[V`]
-|3,0,9,1,1,0,1477471209,"vmap <C-Down> xp`[V`]"
+	vnmap <C-Up> ddkP
+	map <C-Down> xp`[V`]
+|3,0,9,1,2,0,1477471320,"vnmap <C-Up> ddkP","map <C-Down> xp`[V`]"
 "v	CHAR	0
 	€kb€kb€kb€kb
 |3,0,31,0,1,0,1477470264,"€kb€kb€kb€kb"
@@ -198,314 +205,388 @@ $
 |3,0,36,0,1,0,1477471337,"v"
 
 # File marks:
-'0  60  0  ~/.vimrc
-|4,48,60,0,1477474361,"~/.vimrc"
-'1  34  0  ~/.vimrc
-|4,49,34,0,1477470896,"~/.vimrc"
-'2  34  0  ~/.vimrc
-|4,50,34,0,1477470896,"~/.vimrc"
-'3  1  0  ~/.vimrc
-|4,51,1,0,1477470473,"~/.vimrc"
-'4  1  0  ~/.vimrc
-|4,52,1,0,1477470473,"~/.vimrc"
-'5  1  0  ~/.vimrc
-|4,53,1,0,1477470473,"~/.vimrc"
-'6  1  0  ~/.vimrc
-|4,54,1,0,1477470473,"~/.vimrc"
-'7  75  0  ~/.vimrc
-|4,55,75,0,1477470461,"~/.vimrc"
-'8  75  0  ~/.vimrc
-|4,56,75,0,1477470461,"~/.vimrc"
-'9  76  0  ~/.vimrc
-|4,57,76,0,1477470461,"~/.vimrc"
+'0  127  0  /tmp/tutorrtgTkE
+|4,48,127,0,1477479289,"/tmp/tutorrtgTkE"
+'1  25  10  ~/.proj/NERD_tree_1
+|4,49,25,10,1477477868,"~/.proj/NERD_tree_1"
+'2  35  0  ~/.vimrc
+|4,50,35,0,1477476652,"~/.vimrc"
+'3  34  0  ~/.vimrc
+|4,51,34,0,1477476652,"~/.vimrc"
+'4  11  0  ~/.vimrc
+|4,52,11,0,1477476138,"~/.vimrc"
+'5  11  0  ~/.vimrc
+|4,53,11,0,1477476138,"~/.vimrc"
+'6  10  0  ~/.vimrc
+|4,54,10,0,1477476138,"~/.vimrc"
+'7  10  0  ~/.vimrc
+|4,55,10,0,1477476138,"~/.vimrc"
+'8  3  0  ~/NERD_tree_1
+|4,56,3,0,1477475942,"~/NERD_tree_1"
+'9  4  0  ~/NERD_tree_1
+|4,57,4,0,1477475942,"~/NERD_tree_1"
 
 # Jumplist (newest first):
--'  60  0  ~/.vimrc
-|4,39,60,0,1477474361,"~/.vimrc"
+-'  127  0  /tmp/tutorrtgTkE
+|4,39,127,0,1477479289,"/tmp/tutorrtgTkE"
+-'  1  0  /tmp/tutorrtgTkE
+|4,39,1,0,1477478714,"/tmp/tutorrtgTkE"
+-'  25  10  ~/.proj/NERD_tree_1
+|4,39,25,10,1477477868,"~/.proj/NERD_tree_1"
+-'  50  2  ~/.proj/NERD_tree_1
+|4,39,50,2,1477477820,"~/.proj/NERD_tree_1"
+-'  1  11  ~/.proj/NERD_tree_1
+|4,39,1,11,1477477820,"~/.proj/NERD_tree_1"
+-'  1  0  ~/.proj/b.py
+|4,39,1,0,1477477536,"~/.proj/b.py"
+-'  8  7  ~/.vimrc
+|4,39,8,7,1477477079,"~/.vimrc"
+-'  8  7  ~/.vimrc
+|4,39,8,7,1477477079,"~/.vimrc"
+-'  8  7  ~/.vimrc
+|4,39,8,7,1477477079,"~/.vimrc"
+-'  8  7  ~/.vimrc
+|4,39,8,7,1477477079,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477477040,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477477040,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477477040,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1477477040,"~/.vimrc"
+-'  35  0  ~/.vimrc
+|4,39,35,0,1477476652,"~/.vimrc"
+-'  34  0  ~/.vimrc
+|4,39,34,0,1477476652,"~/.vimrc"
+-'  35  0  ~/.vimrc
+|4,39,35,0,1477476652,"~/.vimrc"
+-'  34  0  ~/.vimrc
+|4,39,34,0,1477476652,"~/.vimrc"
+-'  35  0  ~/.vimrc
+|4,39,35,0,1477476652,"~/.vimrc"
+-'  34  0  ~/.vimrc
+|4,39,34,0,1477476652,"~/.vimrc"
+-'  35  0  ~/.vimrc
+|4,39,35,0,1477476652,"~/.vimrc"
+-'  34  0  ~/.vimrc
+|4,39,34,0,1477476652,"~/.vimrc"
 -'  89  0  ~/.vimrc
-|4,39,89,0,1477471332,"~/.vimrc"
+|4,39,89,0,1477476457,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1477476457,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476457,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1477476457,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476457,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1477476457,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476457,"~/.vimrc"
+-'  88  0  ~/.vimrc
+|4,39,88,0,1477476457,"~/.vimrc"
+-'  91  0  ~/.vimrc
+|4,39,91,0,1477476421,"~/.vimrc"
 -'  90  0  ~/.vimrc
-|4,39,90,0,1477471320,"~/.vimrc"
--'  88  1  ~/.vimrc
-|4,39,88,1,1477471312,"~/.vimrc"
--'  96  0  ~/.vimrc
-|4,39,96,0,1477471297,"~/.vimrc"
--'  34  0  ~/.vimrc
-|4,39,34,0,1477470896,"~/.vimrc"
--'  34  0  ~/.vimrc
-|4,39,34,0,1477470896,"~/.vimrc"
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476421,"~/.vimrc"
+-'  91  0  ~/.vimrc
+|4,39,91,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476421,"~/.vimrc"
+-'  91  0  ~/.vimrc
+|4,39,91,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476421,"~/.vimrc"
+-'  91  0  ~/.vimrc
+|4,39,91,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  90  0  ~/.vimrc
+|4,39,90,0,1477476421,"~/.vimrc"
+-'  89  0  ~/.vimrc
+|4,39,89,0,1477476421,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470484,"~/.vimrc"
+|4,39,1,0,1477476253,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470484,"~/.vimrc"
+|4,39,1,0,1477476253,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470473,"~/.vimrc"
--'  75  0  ~/.vimrc
-|4,39,75,0,1477470461,"~/.vimrc"
--'  76  0  ~/.vimrc
-|4,39,76,0,1477470461,"~/.vimrc"
--'  75  0  ~/.vimrc
-|4,39,75,0,1477470461,"~/.vimrc"
--'  76  0  ~/.vimrc
-|4,39,76,0,1477470461,"~/.vimrc"
--'  76  0  ~/.vimrc
-|4,39,76,0,1477470461,"~/.vimrc"
--'  76  0  ~/.vimrc
-|4,39,76,0,1477470461,"~/.vimrc"
+|4,39,1,0,1477476253,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470442,"~/.vimrc"
+|4,39,1,0,1477476253,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1477476138,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470442,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1477470440,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470440,"~/.vimrc"
--'  50  0  ~/.vimrc
-|4,39,50,0,1477470440,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470440,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470440,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470440,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470440,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470440,"~/.vimrc"
+|4,39,1,0,1477476127,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470426,"~/.vimrc"
+|4,39,1,0,1477476127,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470426,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470423,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470423,"~/.vimrc"
+|4,39,1,0,1477476127,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1477470399,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477470399,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  51  0  ~/.vimrc
-|4,39,51,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  52  0  ~/.vimrc
-|4,39,52,0,1477470391,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477470263,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477470263,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477470263,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1477470263,"~/.vimrc"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
--'  1  0  ~/NetrwTreeListing 47
-|4,39,1,0,1477470209,"~/NetrwTreeListing 47"
+|4,39,1,0,1477476127,"~/.vimrc"
+-'  3  0  ~/NERD_tree_1
+|4,39,3,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  3  0  ~/NERD_tree_1
+|4,39,3,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  4  0  ~/NERD_tree_1
+|4,39,4,0,1477475942,"~/NERD_tree_1"
+-'  11  0  ~/NERD_tree_1
+|4,39,11,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
+-'  12  0  ~/NERD_tree_1
+|4,39,12,0,1477475807,"~/NERD_tree_1"
+-'  1  0  ~/NERD_tree_1
+|4,39,1,0,1477475807,"~/NERD_tree_1"
 
 # History of marks within files (newest to oldest):
 
+> /tmp/tutorrtgTkE
+	*	1477479286	0
+	"	127	0
+
+> ~/.proj/a.py
+	*	1477477868	0
+	"	8	0
+	^	1	0
+	.	8	0
+	+	6	26
+	+	6	21
+	+	8	0
+	+	6	10
+	+	7	8
+	+	8	0
+
+> ~/.proj/NERD_tree_1
+	*	1477477867	0
+	"	25	10
+	.	1	0
+	+	1	0
+
+> ~/.proj/b.py
+	*	1477477807	0
+	"	2	5
+	^	2	15
+	.	2	14
+	+	1	25
+	+	2	11
+	+	2	14
+	+	2	11
+	+	3	0
+	+	2	14
+
+> ~/NERD_tree_1
+	*	1477477520	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /usr/share/vim/vim80/doc/quickfix.txt
+	*	1477477514	0
+	"	1130	47
+
+> /usr/share/vim/vim80/doc/editing.txt
+	*	1477477474	0
+	"	897	15
+
 > ~/.vimrc
-	*	1477474358	0
-	"	60	0
-	^	60	0
-	.	86	0
-	+	50	0
-	+	51	74
-	+	53	100
-	+	53	0
-	+	54	40
-	+	54	0
-	+	52	5
-	+	49	13
-	+	51	0
-	+	52	133
+	*	1477477075	0
+	"	8	7
+	^	8	10
+	.	8	9
 	+	52	0
+	+	53	74
+	+	55	100
 	+	55	0
+	+	56	40
+	+	56	0
+	+	54	5
+	+	51	13
+	+	53	0
+	+	54	133
 	+	54	0
-	+	54	89
-	+	54	0
-	+	54	79
-	+	54	0
-	+	31	48
-	+	28	13
-	+	31	48
-	+	40	46
-	+	32	30
-	+	40	46
-	+	33	73
-	+	37	46
-	+	42	17
-	+	42	0
-	+	40	45
-	+	34	18
-	+	33	1
-	+	31	0
-	+	32	0
-	+	34	19
-	+	35	0
-	+	36	0
-	+	37	48
+	+	57	0
+	+	56	0
+	+	56	89
+	+	56	0
+	+	56	79
+	+	56	0
+	+	33	48
+	+	30	13
+	+	33	48
+	+	42	46
+	+	34	30
+	+	42	46
+	+	35	73
+	+	39	46
+	+	44	17
+	+	44	0
+	+	42	45
+	+	36	18
+	+	35	1
+	+	33	0
+	+	34	0
+	+	36	19
+	+	37	0
 	+	38	0
-	+	39	0
+	+	39	48
 	+	40	0
-	+	31	47
-	+	31	0
-	+	32	0
-	+	35	0
-	+	36	0
+	+	41	0
+	+	42	0
+	+	33	47
+	+	33	0
+	+	34	0
 	+	37	0
 	+	38	0
 	+	39	0
 	+	40	0
-	+	40	46
-	+	29	0
+	+	41	0
+	+	42	0
+	+	42	46
 	+	31	0
-	+	28	0
-	+	29	0
-	+	32	0
-	+	30	0
-	+	27	16
-	+	34	1
 	+	33	0
-	+	51	0
-	+	50	0
-	+	15	0
-	+	77	0
+	+	30	0
+	+	31	0
+	+	34	0
+	+	32	0
+	+	29	16
+	+	36	1
+	+	35	0
+	+	53	0
+	+	52	0
+	+	16	0
+	+	79	0
 	+	88	16
 	+	88	0
-	+	89	0
+	+	93	0
 	+	88	0
-	+	83	0
-	+	88	0
-	+	84	0
-	+	88	0
-	+	89	0
-	+	90	0
 	+	85	0
-	+	87	0
 	+	88	0
 	+	86	0
+	+	88	0
+	+	93	0
+	+	94	0
+	+	88	0
+	+	27	27
+	+	88	0
+	+	92	0
+	+	89	0
+	+	88	0
+	+	92	0
+	+	89	0
+	+	88	0
+	+	90	0
+	+	89	0
+	+	87	10
+	+	8	9
 
-> ~/NERD_tree_1
-	*	1477474228	0
-	"	19	8
-	.	1	0
-	+	1	0
+> ~/undotree_2
+	*	1477475801	0
+	"	11	13
+	.	3	0
+	+	24	0
+	+	21	0
+	+	18	0
+	+	12	0
+	+	13	0
+	+	12	0
+	+	3	0
+
+> ~/diffpanel_3
+	*	1477475786	0
+	"	1	0
+	.	11	0
+	+	22	0
+	+	11	0
 
 > /var/undotree_2
 	*	1477470331	0
@@ -536,22 +617,6 @@ $
 > ~/.vim/bundle/nerdtree/doc/NERD_tree.txt
 	*	1477469831	0
 	"	965	9
-
-> ~/undotree_2
-	*	1477469561	0
-	"	8	14
-	.	4	0
-	+	15	0
-	+	12	0
-	+	9	0
-	+	3	0
-	+	4	0
-
-> ~/diffpanel_3
-	*	1477469513	0
-	"	10	0
-	.	15	0
-	+	15	0
 
 > ~/.tmux.conf
 	*	1477469344	0
@@ -594,18 +659,6 @@ $
 	+	13	0
 	+	10	0
 
-> ~/.proj/a.py
-	*	1477469130	0
-	"	4	6
-	^	1	0
-	.	8	0
-	+	6	26
-	+	6	21
-	+	8	0
-	+	6	10
-	+	7	8
-	+	8	0
-
 > /usr/share/vim/vim80/doc/pi_netrw.txt
 	*	1477468985	0
 	"	3049	62
@@ -617,24 +670,6 @@ $
 > ~/Videos/alignment.ogv
 	*	1477456087	0
 	"	1	0
-
-> ~/.proj/NERD_tree_1
-	*	1477456086	0
-	"	13	0
-	.	1	0
-	+	1	0
-
-> ~/.proj/b.py
-	*	1477455859	0
-	"	1	0
-	^	2	15
-	.	2	14
-	+	1	25
-	+	2	11
-	+	2	14
-	+	2	11
-	+	3	0
-	+	2	14
 
 > ~/NERD_tree_2
 	*	1477455817	0

@@ -1,0 +1,721 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Episodes</title>
+
+    
+      <meta name="st:robots" content="follow, index">
+    
+
+    
+      <link href="/feeds/ogg.rss" title="Vimcasts OGG Feed" rel="alternate" type="application/rss+xml" />
+    
+      <link href="/feeds/quicktime.rss" title="Vimcasts Quicktime Feed" rel="alternate" type="application/rss+xml" />
+    
+
+    <link href="/stylesheets/vimcasts.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/modernizr.js" type="text/javascript"></script>
+    
+  </head>
+
+<!--
+_____________________________________________________________________
+____/\\\________/\\\___/\\\\\\\\\\\___/\\\\____________/\\\\__________
+____\/\\\_______\/\\\__\/////\\\///___\/\\\\\\________/\\\\\\__________
+_____\//\\\______/\\\_______\/\\\______\/\\\//\\\____/\\\//\\\__________
+_______\//\\\____/\\\________\/\\\______\/\\\\///\\\/\\\/_\/\\\__________
+_________\//\\\__/\\\_________\/\\\______\/\\\__\///\\\/___\/\\\__________
+___________\//\\\/\\\__________\/\\\______\/\\\____\///_____\/\\\__________
+_____________\//\\\\\___________\/\\\______\/\\\_____________\/\\\__________
+_______________\//\\\_________/\\\\\\\\\\\__\/\\\_____________\/\\\__________
+_________________\///_________\///////////___\///______________\///___________
+_______________________________________________________________________________
+
+
+______________________________________________________________________________________________________________
+___________________/\\\\\\\\\______/\\\\\\\\\_________/\\\\\\\\\\\_____/\\\\\\\\\\\\\\\______/\\\\\\\\\\\______
+_________________/\\\////////_____/\\\\\\\\\\\\\_____/\\\/////////\\\__\///////\\\/////_____/\\\/////////\\\____
+________________/\\\/_____________/\\\/////////\\\___\//\\\______\///_________\/\\\_________\//\\\______\///_____                                        /\\\\\\\\
+________________/\\\______________\/\\\_______\/\\\____\////\\\________________\/\\\__________\////\\\____________            /\\\\\      /\\/\\\\\\\    /\\\////\\\
+________________\/\\\______________\/\\\\\\\\\\\\\\\_______\////\\\_____________\/\\\_____________\////\\\_________          /\\\///\\\   \/\\\/////\\\  \//\\\\\\\\\
+_________________\//\\\_____________\/\\\/////////\\\__________\////\\\__________\/\\\________________\////\\\______         /\\\  \//\\\  \/\\\   \///    \///////\\\
+___________________\///\\\___________\/\\\_______\/\\\___/\\\______\//\\\_________\/\\\_________/\\\______\//\\\_____        \//\\\  /\\\   \/\\\           /\\     \\\
+______________________\////\\\\\\\\\__\/\\\_______\/\\\__\///\\\\\\\\\\\/__________\/\\\________\///\\\\\\\\\\\/______  /\\\   \///\\\\\/    \/\\\          \//\\\\\\\\
+__________________________\/////////___\///________\///_____\///////////____________\///___________\///////////________ \///      \/////      \///            \////////
+________________________________________________________________________________________________________________________
+-->
+
+  <body class="episodes episodes_page episodes_page_4 episodes_page_4_index" data-swiftype-index='false'>
+
+  
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2977286-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+
+  
+
+  <div class="off-canvas-wrap">
+    <div class="inner-wrap">
+
+      <div class="top-bar-underlay"></div>
+
+      <div class="row">
+        <nav class="top-bar show-for-large-up" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+          </ul>
+
+          <section class="top-bar-section">
+
+            
+              <!-- Right Nav Section -->
+              <ul class="right search-form-wrapper">
+                <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <form class="swiftype-search-form">
+  <input type="search" class="swiftype-search-input" placeholder="Search the archives"/>
+</form>
+
+
+                  </div>
+                </div>
+                </li>
+              </ul>
+            
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li class="open"><a href="/episodes">Screencasts</a></li><li><a href="/blog">Articles</a></li><li><a href="/categories">Categories</a></li><li><a href="/training">Training</a></li><li><a href="/publications">Publications</a></li>
+<li><a href="/subscribe">Subscribe</a></li>
+            </ul>
+          </section>
+        </nav>
+
+      </div>
+
+      <nav class="compact-nav tab-bar hide-for-large-up">
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+        </section>
+
+        <section class="right tab-bar-section">
+          
+            <form class="swiftype-search-form">
+  <input type="search" class="swiftype-search-input" placeholder="Search the archives"/>
+</form>
+
+
+          
+        </section>
+      </nav>
+
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+          <li><label>Vimcasts</label></li>
+          <li class="open"><a href="/episodes">Screencasts</a></li><li><a href="/blog">Articles</a></li><li><a href="/categories">Categories</a></li><li><a href="/training">Training</a></li><li><a href="/publications">Publications</a></li>
+<li><a href="/subscribe">Subscribe</a></li>
+
+          
+            <li>
+              <form class="swiftype-search-form">
+  <input type="search" class="swiftype-search-input" placeholder="Search the archives"/>
+</form>
+
+
+            </li>
+          
+        </ul>
+      </aside>
+
+      <section class="main-section">
+
+        <div class="identity-row">
+          <div id="logo" class="logo">
+            <h1>
+              
+                <a href="/" title="Go to Vimcasts.org homepage">VimCasts.org</a>
+              
+            </h1>
+          </div>
+          
+            <div class="strapline">
+              <h2>
+              Learn Essential Vim&nbsp;Skills<br/>
+              <small><a href="/about/">with&nbsp;Drew Neil, author of Practical&nbsp;Vim</a></small>
+            </h2>
+          </div>
+        
+        </div>
+
+          
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/writing-a-custom-fold-expression/">Writing a custom fold expression</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>38
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P12M,07S">
+      12:07
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2012-11-26">
+    <div class="hide-for-medium-up">Nov&nbsp;26, '12</div><div class="show-for-medium-up">Nov 26, 2012</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>With a little bit of Vimscript, you can create a custom folding expression for any filetype. We&rsquo;ll start by looking at the mechanics of folding with markers, then go on to create a folding expression for markdown documents.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/writing-a-custom-fold-expression/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/how-to-fold/">How to fold</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>37
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P8M,49S">
+      8:49
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2012-11-19">
+    <div class="hide-for-medium-up">Nov&nbsp;19, '12</div><div class="show-for-medium-up">Nov 19, 2012</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>Vim&rsquo;s folding feature enables us to expand and collapse regions of a document. Not only does this allow us to organize our workspace, it also makes it easy to navigate around the document, and to rearrange entire sections as though they were single lines.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/how-to-fold/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/vimgolf-prime-numbers/">VimGolf - Prime Numbers</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>36
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P6M,53S">
+      6:53
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2012-08-10">
+    <div class="hide-for-medium-up">Aug&nbsp;10, '12</div><div class="show-for-medium-up">Aug 10, 2012</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>For the VimGolf challenge <a href="http://vimgolf.com/challenges/4d1c27940e3d7832db000010">&ldquo;List the first 100 prime numbers&rdquo;</a>, there&rsquo;s a solution that uses a regular expression to detect prime numbers. At 43 keystokes, it&rsquo;s not the winning solution, but I think it&rsquo;s the most interesting one. It uses a few clever Vim tricks, including macros, control-a to increment, the very magic pattern switch, and the <code>:global</code> command. There&rsquo;s a lot to learn from those 43 keystrokes, so let&rsquo;s study it!</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/vimgolf-prime-numbers/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/fugitive-vim-exploring-the-history-of-a-git-repository/">Fugitive.vim - exploring the history of a git repository</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>35
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P10M,04S">
+      10:04
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-05-18">
+    <div class="hide-for-medium-up">May&nbsp;18, '11</div><div class="show-for-medium-up">May 18, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>Git provides tools for searching the contents of files, commit messages, and even whether text was added or removed by a commit. In this episode, we&rsquo;ll see how fugitive&rsquo;s <code>Ggrep</code> and <code>Glog</code> commands wrap this functionality up so that we can search the contents and history of a git repo from right inside of Vim.</p>
+
+<p><em>This is the last of our five part series on fugitive.vim.</em></p>
+
+
+
+      
+        <a class="readmore" href="/episodes/fugitive-vim-exploring-the-history-of-a-git-repository/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/fugitive-vim-browsing-the-git-object-database/">Fugitive.vim - browsing the git object database</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>34
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P9M,45S">
+      9:45
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-05-13">
+    <div class="hide-for-medium-up">May&nbsp;13, '11</div><div class="show-for-medium-up">May 13, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>With the fugitive plugin, you&rsquo;re not limited to just working with files in your working tree. The <code>:Gedit</code> command allows you to open files in other branches, and to browse any <a href="http://book.git-scm.com/1_the_git_object_model.html">git object</a>, including tags, commits and trees. Plus, if your repository is hosted on github, you can easily bring up the webpage for any git object using the <code>:Gbrowse</code> command.</p>
+
+<p><em>This is the penultimate of a five part series on fugitive.vim.</em></p>
+
+
+
+      
+        <a class="readmore" href="/episodes/fugitive-vim-browsing-the-git-object-database/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/">Fugitive.vim - resolving merge conflicts with vimdiff</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>33
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P11M,35S">
+      11:35
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-05- 6">
+    <div class="hide-for-medium-up">May&nbsp; 6, '11</div><div class="show-for-medium-up">May  6, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>When git branches are merged, there is always the chance of a conflict arising if a file was modified in both the target and merge branches. You can resolve merge conflicts using a combination of fugitive&rsquo;s <code>:Gdiff</code> command, and Vim&rsquo;s built in <code>diffget</code> and <code>diffput</code>. In this episode, we&rsquo;ll find out how.</p>
+
+<p><em>This is the third in a five part series on fugitive.vim.</em></p>
+
+
+
+      
+        <a class="readmore" href="/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/fugitive-vim-working-with-the-git-index/">Fugitive.vim - working with the git index</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>32
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P11M,41S">
+      11:41
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-04-29">
+    <div class="hide-for-medium-up">Apr&nbsp;29, '11</div><div class="show-for-medium-up">Apr 29, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>The fugitive plugin provides an interactive status window, where you can easily stage and review your changes for the next commit. The <code>:Gdiff</code> command visualizes the changes made to a file, by comparing the working copy with the index. In this episode, we&rsquo;ll learn how to stage hunks of changes to the index without using the <code>git add --patch</code> command.</p>
+
+<p><em>This is the second of a five part series on fugitive.vim. In the next episode, we&rsquo;ll learn how to resolve a git merge conflict by performing a 3-way vimdiff.</em></p>
+
+
+
+      
+        <a class="readmore" href="/episodes/fugitive-vim-working-with-the-git-index/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/fugitive-vim---a-complement-to-command-line-git/">Fugitive.vim - a complement to command line git</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>31
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P8M,27S">
+      8:27
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-04-22">
+    <div class="hide-for-medium-up">Apr&nbsp;22, '11</div><div class="show-for-medium-up">Apr 22, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p><a href="https://github.com/tpope/vim-fugitive">The fugitive plugin</a>, by Tim Pope, is a git wrapper for Vim. It  complements the command line interface to git, but doesn&rsquo;t aim to replace it. In this episode, we&rsquo;ll see how some of fugitive&rsquo;s commands can streamline your workflow.</p>
+
+<p><em>This is the first of a five part series on fugitive.</em></p>
+
+
+
+      
+        <a class="readmore" href="/episodes/fugitive-vim---a-complement-to-command-line-git/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/undo-branching-and-gundo-vim/">Undo branching and Gundo.vim</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>30
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P6M,30S">
+      6:30
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-02-23">
+    <div class="hide-for-medium-up">Feb&nbsp;23, '11</div><div class="show-for-medium-up">Feb 23, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>The undo command is almost universally available in software today. Being able to rollback unwanted changes can be a real timesaver. In most applications you can only go backwards and forwards linearly, but Vim keeps your changes in a tree structure, which means that you can retrieve edits from distant branches in your history. This episode will show you how.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/undo-branching-and-gundo-vim/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/aligning-text-with-tabular-vim/">Aligning text with Tabular.vim</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>29
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P5M,11S">
+      5:11
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2011-01-17">
+    <div class="hide-for-medium-up">Jan&nbsp;17, '11</div><div class="show-for-medium-up">Jan 17, 2011</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>There are times when you can improve the readability of your code by lining up the elements on neighbouring lines. In this episode, I demonstrate how this can be achieved using the <a href="https://github.com/godlygeek/tabular">Tabular</a> plugin.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/aligning-text-with-tabular-vim/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+
+<div class="row">
+  <div class="small-12 large-8 large-offset-2 columns">
+
+    <nav class="pagination-links">
+      
+
+        
+          <a class="previous" href="/episodes/page/3/">&laquo; Previous</a>
+        
+
+        
+          <a class="next" href="/episodes/page/5/">Next &raquo;</a>
+        
+
+    
+    </nav>
+
+  </div>
+</div>
+
+<div class="row footer">
+
+  <hr/>
+
+  <div class="small-6 columns">
+    <ul class="inline-list">
+      <li><a href="/about">About</a></li>
+      <li><a href="/announcements">Announcements</a></li>
+      <li><a href="/tipjar">Leave a tip</a></li>
+    </ul>
+  </div>
+
+  <div class="small-6 columns">
+    <p class="text-right">
+    Vimcasts.org established MMX
+    </p>
+  </div>
+
+</div>
+
+
+      </section>
+
+      <a class="exit-off-canvas"></a>
+
+    </div>
+  </div>
+
+  <script src="/javascripts/all.js" type="text/javascript"></script>
+
+  
+
+  </body>
+</html>
+km,pX      X©X«=
+©>X®   %    :http://vimcasts.org/episodes/page/4/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+x-amz-id-2: 1oLKK1Y3vfK/LfDCB1HphmSv9V23pe5Y03pXl6EhYXJaLZ/glPaD/+4+meWRDbt1Sla8CCwjn0M=
+x-amz-request-id: D6C11C4DCB3FA4A9
+Date: Wed, 26 Oct 2016 09:12:55 GMT
+x-amz-meta-content-md5: a8222b8dd45b93190b858900b0f27708
+Last-Modified: Wed, 23 Jul 2014 09:33:35 GMT
+Etag: "a8222b8dd45b93190b858900b0f27708"
+Content-Type: text/html
+Content-Length: 20634
+Server: AmazonS3
+ original-response-headers x-amz-id-2: 1oLKK1Y3vfK/LfDCB1HphmSv9V23pe5Y03pXl6EhYXJaLZ/glPaD/+4+meWRDbt1Sla8CCwjn0M=
+x-amz-request-id: D6C11C4DCB3FA4A9
+Date: Wed, 26 Oct 2016 09:12:55 GMT
+x-amz-meta-content-md5: a8222b8dd45b93190b858900b0f27708
+Last-Modified: Wed, 23 Jul 2014 09:33:35 GMT
+Etag: "a8222b8dd45b93190b858900b0f27708"
+Content-Type: text/html
+Content-Length: 20634
+Server: AmazonS3
+ charset windows-1252 uncompressed-len 0 predictor::resource-count 4 predictor::http://vimcasts.org/stylesheets/vimcasts.css 1,1,1477476777,4096 predictor::http://vimcasts.org/javascripts/modernizr.js 1,1,1477476777,4096 predictor::http://www.google-analytics.com/ga.js 1,1,1477476777,4096 predictor::http://vimcasts.org/javascripts/all.js 1,1,1477476777,4096   Pš
