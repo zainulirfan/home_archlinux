@@ -1,0 +1,712 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Episodes</title>
+
+    
+      <meta name="st:robots" content="follow, index">
+    
+
+    
+      <link href="/feeds/ogg.rss" title="Vimcasts OGG Feed" rel="alternate" type="application/rss+xml" />
+    
+      <link href="/feeds/quicktime.rss" title="Vimcasts Quicktime Feed" rel="alternate" type="application/rss+xml" />
+    
+
+    <link href="/stylesheets/vimcasts.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/modernizr.js" type="text/javascript"></script>
+    
+  </head>
+
+<!--
+_____________________________________________________________________
+____/\\\________/\\\___/\\\\\\\\\\\___/\\\\____________/\\\\__________
+____\/\\\_______\/\\\__\/////\\\///___\/\\\\\\________/\\\\\\__________
+_____\//\\\______/\\\_______\/\\\______\/\\\//\\\____/\\\//\\\__________
+_______\//\\\____/\\\________\/\\\______\/\\\\///\\\/\\\/_\/\\\__________
+_________\//\\\__/\\\_________\/\\\______\/\\\__\///\\\/___\/\\\__________
+___________\//\\\/\\\__________\/\\\______\/\\\____\///_____\/\\\__________
+_____________\//\\\\\___________\/\\\______\/\\\_____________\/\\\__________
+_______________\//\\\_________/\\\\\\\\\\\__\/\\\_____________\/\\\__________
+_________________\///_________\///////////___\///______________\///___________
+_______________________________________________________________________________
+
+
+______________________________________________________________________________________________________________
+___________________/\\\\\\\\\______/\\\\\\\\\_________/\\\\\\\\\\\_____/\\\\\\\\\\\\\\\______/\\\\\\\\\\\______
+_________________/\\\////////_____/\\\\\\\\\\\\\_____/\\\/////////\\\__\///////\\\/////_____/\\\/////////\\\____
+________________/\\\/_____________/\\\/////////\\\___\//\\\______\///_________\/\\\_________\//\\\______\///_____                                        /\\\\\\\\
+________________/\\\______________\/\\\_______\/\\\____\////\\\________________\/\\\__________\////\\\____________            /\\\\\      /\\/\\\\\\\    /\\\////\\\
+________________\/\\\______________\/\\\\\\\\\\\\\\\_______\////\\\_____________\/\\\_____________\////\\\_________          /\\\///\\\   \/\\\/////\\\  \//\\\\\\\\\
+_________________\//\\\_____________\/\\\/////////\\\__________\////\\\__________\/\\\________________\////\\\______         /\\\  \//\\\  \/\\\   \///    \///////\\\
+___________________\///\\\___________\/\\\_______\/\\\___/\\\______\//\\\_________\/\\\_________/\\\______\//\\\_____        \//\\\  /\\\   \/\\\           /\\     \\\
+______________________\////\\\\\\\\\__\/\\\_______\/\\\__\///\\\\\\\\\\\/__________\/\\\________\///\\\\\\\\\\\/______  /\\\   \///\\\\\/    \/\\\          \//\\\\\\\\
+__________________________\/////////___\///________\///_____\///////////____________\///___________\///////////________ \///      \/////      \///            \////////
+________________________________________________________________________________________________________________________
+-->
+
+  <body class="episodes episodes_index" data-swiftype-index='false'>
+
+  
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2977286-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+
+  
+
+  <div class="off-canvas-wrap">
+    <div class="inner-wrap">
+
+      <div class="top-bar-underlay"></div>
+
+      <div class="row">
+        <nav class="top-bar show-for-large-up" data-topbar>
+          <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+          </ul>
+
+          <section class="top-bar-section">
+
+            
+              <!-- Right Nav Section -->
+              <ul class="right search-form-wrapper">
+                <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <form class="swiftype-search-form">
+  <input type="search" class="swiftype-search-input" placeholder="Search the archives"/>
+</form>
+
+
+                  </div>
+                </div>
+                </li>
+              </ul>
+            
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li class="active"><a href="/episodes">Screencasts</a></li><li><a href="/blog">Articles</a></li><li><a href="/categories">Categories</a></li><li><a href="/training">Training</a></li><li><a href="/publications">Publications</a></li>
+<li><a href="/subscribe">Subscribe</a></li>
+            </ul>
+          </section>
+        </nav>
+
+      </div>
+
+      <nav class="compact-nav tab-bar hide-for-large-up">
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+        </section>
+
+        <section class="right tab-bar-section">
+          
+            <form class="swiftype-search-form">
+  <input type="search" class="swiftype-search-input" placeholder="Search the archives"/>
+</form>
+
+
+          
+        </section>
+      </nav>
+
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+          <li><label>Vimcasts</label></li>
+          <li class="active"><a href="/episodes">Screencasts</a></li><li><a href="/blog">Articles</a></li><li><a href="/categories">Categories</a></li><li><a href="/training">Training</a></li><li><a href="/publications">Publications</a></li>
+<li><a href="/subscribe">Subscribe</a></li>
+
+          
+            <li>
+              <form class="swiftype-search-form">
+  <input type="search" class="swiftype-search-input" placeholder="Search the archives"/>
+</form>
+
+
+            </li>
+          
+        </ul>
+      </aside>
+
+      <section class="main-section">
+
+        <div class="identity-row">
+          <div id="logo" class="logo">
+            <h1>
+              
+                <a href="/" title="Go to Vimcasts.org homepage">VimCasts.org</a>
+              
+            </h1>
+          </div>
+          
+            <div class="strapline">
+              <h2>
+              Learn Essential Vim&nbsp;Skills<br/>
+              <small><a href="/about/">with&nbsp;Drew Neil, author of Practical&nbsp;Vim</a></small>
+            </h2>
+          </div>
+        
+        </div>
+
+          
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/ultisnips-visual-placeholder/">Using selected text in UltiSnips snippets</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>68
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P5M,13S">
+      5:13
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-07-23">
+    <div class="hide-for-medium-up">Jul&nbsp;23, '14</div><div class="show-for-medium-up">Jul 23, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>When UltiSnips is triggered from Visual mode it captures the selection and makes it available to our snippets. We can then insert the selection unchanged with the <code>$VISUAL</code> placeholder, or we can use UltiSnips Python interpolation to transform the text before inserting it back into the document.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/ultisnips-visual-placeholder/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/ultisnips-python-interpolation/">Using Python interpolation in UltiSnips snippets</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>67
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,56S">
+      4:56
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-05-29">
+    <div class="hide-for-medium-up">May&nbsp;29, '14</div><div class="show-for-medium-up">May 29, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p><a href="https://github.com/SirVer/ultisnips">UltiSnips</a> can execute Python code and interpolate the result into a snippet. This makes it possible to create snippets that react to the text entered in each field. We&rsquo;ll look at an example that performs a simple calculation and inserts the result into our document.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/ultisnips-python-interpolation/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/meet-ultisnips/">Meet UltiSnips</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>66
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P5M,43S">
+      5:43
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-05-21">
+    <div class="hide-for-medium-up">May&nbsp;21, '14</div><div class="show-for-medium-up">May 21, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>Snippets allow you to quickly insert predefined chunks of text into your document. The feature as I know it was first introduced in TextMate, but it has since been emulated by many other editors. For Vim users who want this functionality, the UltiSnips plugin is a great choice. Let&rsquo;s start by looking at the basics.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/meet-ultisnips/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/swapping-two-regions-of-text-with-exchange-vim/">Swapping two regions of text with exchange.vim</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>65
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,05S">
+      4:05
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-02-24">
+    <div class="hide-for-medium-up">Feb&nbsp;24, '14</div><div class="show-for-medium-up">Feb 24, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>Swapping two regions of text is a common task, which normally requires that we make two separate changes to the document.
+Tom McDonald&rsquo;s <a href="https://github.com/tommcdo/vim-exchange">exchange plugin</a> offers an elegant alternative, by providing an operator that swaps two regions of text in one go.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/swapping-two-regions-of-text-with-exchange-vim/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/using-external-filter-commands-to-reformat-html/">Using external filter commands to reformat HTML</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>64
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,31S">
+      4:31
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-02-18">
+    <div class="hide-for-medium-up">Feb&nbsp;18, '14</div><div class="show-for-medium-up">Feb 18, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>We can use pandoc as a <a href="http://vimdoc.sourceforge.net/htmldoc/change.html#filter">filter</a> to clean up <abbr title="what you see is what you get">WYSIWYG</abbr>-generated HTML. Pandoc is a commandline program, but we can call it from inside Vim either using the <a href="http://vimdoc.sourceforge.net/htmldoc/various.html#:!">bang Ex command</a>, or by configuring <a href="http://vimdoc.sourceforge.net/htmldoc/options.html#&amp;#x27;formatprg&amp;#x27;">the <code>formatprg</code> option</a> to make the <code>gq</code> operator invoke pandoc.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/using-external-filter-commands-to-reformat-html/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/operating-on-search-matches-using-gn/">Operating on search matches using gn</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>63
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,35S">
+      4:35
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-02-11">
+    <div class="hide-for-medium-up">Feb&nbsp;11, '14</div><div class="show-for-medium-up">Feb 11, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>The <code>gn</code> command (introduced in Vim 7.4) makes it easy to operate on regions of text that match the current search pattern. It&rsquo;s especially useful when used with a regex that matches text regions of variable length.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/operating-on-search-matches-using-gn/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/creating-mappings-that-accept-a-count/">Creating mappings that accept a count</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>62
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,02S">
+      4:02
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-02- 6">
+    <div class="hide-for-medium-up">Feb&nbsp; 6, '14</div><div class="show-for-medium-up">Feb  6, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>Lots of Vim&rsquo;s built-in Normal mode commands can be executed multiple times by prefixing them with a count. User-defined Normal mode mappings don&rsquo;t usually handle counts the way we might like them to. We&rsquo;ll explore a couple of techniques for making our custom mappings respond predictably to a count.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/creating-mappings-that-accept-a-count/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/creating-repeatable-mappings-with-repeat-vim/">Creating repeatable mappings with repeat.vim</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>61
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,33S">
+      4:33
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-01-21">
+    <div class="hide-for-medium-up">Jan&nbsp;21, '14</div><div class="show-for-medium-up">Jan 21, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>The dot command is my all-time favorite Vim trick: it tells Vim to repeat the last change. But the dot command tends not to work well with user-defined mappings. In this episode, we&rsquo;ll use repeat.vim to set up a simple mapping so that it can be repeated using the dot command.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/creating-repeatable-mappings-with-repeat-vim/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/comparing-buffers-with-vimdiff/">Comparing buffers with vimdiff</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>60
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,16S">
+      4:16
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2014-01-15">
+    <div class="hide-for-medium-up">Jan&nbsp;15, '14</div><div class="show-for-medium-up">Jan 15, 2014</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>Vim&rsquo;s diff mode allows us to easily compare the contents of two (or more) buffers. We can start Vim in diff mode using the <code>vimdiff</code> command, or if Vim is already running we can switch to diff mode using the <code>:diffthis</code> command. The beauty of the <code>:diffthis</code> command is that it works with unnamed buffers, whereas <code>vimdiff</code> can only work with files.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/comparing-buffers-with-vimdiff/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+  
+<section class="screencast">
+
+  <div class="title-row">
+    <h3 class="title">
+      <a href="/episodes/using-vims-paste-mode-with-the-system-paste-command/">Using Vim's paste mode with the system paste command</a>
+    </h3>
+    
+      <h3 class="episode_number">
+        <small>#</small>59
+      </h3>
+    
+  </div>
+
+  
+    <div class="pubdate-row">
+
+  <div class="video-run-time">
+    
+    Run time: <time datetime="P4M,25S">
+      4:25
+    </time>
+  </div>
+
+  <time class="pubdate" pubdate="pubdate" datetime="2013-11-15">
+    <div class="hide-for-medium-up">Nov&nbsp;15, '13</div><div class="show-for-medium-up">Nov 15, 2013</div>
+  </time>
+
+</div>
+
+  
+
+  <div class="summary-row">
+    <div class="episode_summary">
+      <p>When Vim is compiled without the <code>+clipboard</code> feature, we can still insert text from the clipboard using the system paste command (<code>ctrl-v</code> or <code>cmd-v</code>). This can produce strange effects, but we can avoid them by toggling the <code>paste</code> option each time we use the system paste command.</p>
+
+
+
+      
+        <a class="readmore" href="/episodes/using-vims-paste-mode-with-the-system-paste-command/"><span class='icon-play icomoon'></span>Watch screencast</a>
+      
+
+    </div>
+  </div>
+
+</section>
+
+
+<div class="row">
+  <div class="small-12 large-8 large-offset-2 columns">
+
+    <nav class="pagination-links">
+      
+
+        
+          <span class="previous">&laquo; Previous</span>
+        
+
+        
+          <a class="next" href="/episodes/page/2/">Next &raquo;</a>
+        
+
+    
+    </nav>
+
+  </div>
+</div>
+
+<div class="row footer">
+
+  <hr/>
+
+  <div class="small-6 columns">
+    <ul class="inline-list">
+      <li><a href="/about">About</a></li>
+      <li><a href="/announcements">Announcements</a></li>
+      <li><a href="/tipjar">Leave a tip</a></li>
+    </ul>
+  </div>
+
+  <div class="small-6 columns">
+    <p class="text-right">
+    Vimcasts.org established MMX
+    </p>
+  </div>
+
+</div>
+
+
+      </section>
+
+      <a class="exit-off-canvas"></a>
+
+    </div>
+  </div>
+
+  <script src="/javascripts/all.js" type="text/javascript"></script>
+
+  
+
+  </body>
+</html>
+ÎÏï      XjcXjf=
+™X–Ð       :http://vimcasts.org/episodes/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+x-amz-id-2: VODx+tbgZXoFtVHGedRAdgcf7oGJWdOZR61uGY4of+rDu0qCKRPn45iXdlJGSnpe2QbqgH4qzyA=
+x-amz-request-id: 172E1A1B9C836839
+Date: Wed, 26 Oct 2016 07:33:37 GMT
+x-amz-meta-content-md5: 44e051a6f2a1b872389d275138efb960
+Last-Modified: Wed, 23 Jul 2014 09:33:32 GMT
+Etag: "44e051a6f2a1b872389d275138efb960"
+Content-Type: text/html
+Content-Length: 20024
+Server: AmazonS3
+ original-response-headers x-amz-id-2: VODx+tbgZXoFtVHGedRAdgcf7oGJWdOZR61uGY4of+rDu0qCKRPn45iXdlJGSnpe2QbqgH4qzyA=
+x-amz-request-id: 172E1A1B9C836839
+Date: Wed, 26 Oct 2016 07:33:37 GMT
+x-amz-meta-content-md5: 44e051a6f2a1b872389d275138efb960
+Last-Modified: Wed, 23 Jul 2014 09:33:32 GMT
+Etag: "44e051a6f2a1b872389d275138efb960"
+Content-Type: text/html
+Content-Length: 20024
+Server: AmazonS3
+ charset windows-1252 uncompressed-len 0 predictor::resource-count 5 predictor::http://vimcasts.org/stylesheets/vimcasts.css 1,1,1477470819,4096 predictor::http://vimcasts.org/javascripts/modernizr.js 1,1,1477470819,4096 predictor::http://vimcasts.org/javascripts/all.js 1,1,1477470819,4096 predictor::http://www.google-analytics.com/ga.js 1,1,1477470819,4096 predictor::http://vimcasts.org/icomoon/fonts/icomoon.woff?hkjmps 1,1,1477470819,4096   N8

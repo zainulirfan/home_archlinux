@@ -1,0 +1,15 @@
+[Added Associations]
+video/mp4=smplayer_enqueue.desktop;vlc.desktop;
+application/pdf=evince.desktop;ida.desktop;apvlv.desktop;
+audio/mpeg=smplayer.desktop;mpv.desktop;vlc.desktop;
+image/jpeg=ristretto.desktop;
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+text/plain=mousepad.desktop;leafpad.desktop;
+application/zip=engrampa.desktop;
+video/3gpp=smplayer_enqueue.desktop;
+image/png=ristretto.desktop;
+application/x-compressed-tar=engrampa.desktop;
+
+[Default Applications]
+video/mp4=vlc.desktop
