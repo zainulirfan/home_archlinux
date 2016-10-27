@@ -7,11 +7,20 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
 #ZSH_THEME="avit"
+#ZSH_THEME="blinks"
+#ZSH_THEME="fishy"
+#ZSH_THEME="geoffgarside"
+#ZSH_THEME="kardan"
+#ZSH_THEME="maran"
+ZSH_THEME="wezm"
+#ZSH_THEME="xiong-chiamiov"
+#ZSH_THEME="ys"
+#ZSH_THEME="maran"
+#ZSH_THEME="maran"
 #ZSH_THEME="bira"
-
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -33,7 +42,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -55,7 +64,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git python composer autojump bundler archlinux github)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -93,8 +102,15 @@ alias vz="vim ~/.zshrc"
 alias se="source ~/.zshrc"
 alias q="exit"
 alias c="clear"
+alias py='python2'
+alias lamppon='sudo /opt/lampp/lampp start'
+alias lamppoff='sudo /opt/lampp/lampp stop'
+alias lamppre='sudo /opt/lampp/lampp restart'
 
 # TMUX setting default
 #if [[ ! $TERM =~ screen ]]; then
 #	exec tmux
 #fi
+
+#Autojump Here
+[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh

@@ -1,6 +1,5 @@
 set number
 set relativenumber
-"set rtp+=/home/mohammad/.local/lib/python3.5/site-packages/powerline/bindings/vim/
 set laststatus=2
 set t_Co=256
 set mouse=a
@@ -11,6 +10,7 @@ syntax enable
 " Setting for Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+
 " Plugin Manager
 Plugin 'VundleVim/Vundle.vim'
 
@@ -28,6 +28,7 @@ Plugin 'tpope/vim-unimpaired'
 
 "NERDTreePosition
 let g:NERDTreeWinPos='right'
+let g:NERDTreeWinSize= 20
 "NERDTree File
 let g:NERDTreeFileExtensionHighlightFullName = 1
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -84,6 +85,8 @@ nmap <space>c :PluginInstall<CR>
 nmap <space>so :source %<CR>
 nmap <space>ve :e ~/.vimrc<CR>
 nmap <space>ve! :e! ~/.vimrc<CR>
+nmap <C-c> <C-w>
+
 "Unimpaired
 nmap <C-Up> [e
 nmap <C-Down> ]e

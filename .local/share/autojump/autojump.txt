@@ -1,0 +1,5 @@
+36.0555127546399	/var
+28.284271247461902	/home/mohammad/.proj
+20.0	/var/lib
+20.0	/home/mohammad/Downloads/autojump_v21.1.2
+17.320508075688775	/opt/lampp

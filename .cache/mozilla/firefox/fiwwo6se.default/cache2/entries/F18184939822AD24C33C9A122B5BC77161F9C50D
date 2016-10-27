@@ -304,8 +304,7 @@ jQuery.pkp.controllers.linkAction = jQuery.pkp.controllers.linkAction || { };
 
 /** @param {jQuery} $ jQuery closure. */
 }(jQuery));
-÷^W5º      Xä¢XâÍ=
-∂íX∂N   ^    :http://journals.telkomuniversity.ac.id/lib/pkp/js/controllers/linkAction/LinkActionHandler.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+ (;lº      XsÅXm‹=STX∂N   ^    :http://journals.telkomuniversity.ac.id/lib/pkp/js/controllers/linkAction/LinkActionHandler.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
 Server: nginx/1.8.0
 Date: Wed, 26 Oct 2016 09:47:59 GMT
 Content-Type: application/javascript
