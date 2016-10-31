@@ -100,12 +100,17 @@ alias ve="vim ~/.vimrc"
 alias so="source ~/.vimrc"
 alias vz="vim ~/.zshrc"
 alias se="source ~/.zshrc"
+alias vt='vim .tmux.conf'
+alias st='tmux source ~/.tmux.conf'
+alias tpm='~/.tmux/plugins/tpm/bin/install_plugins'
 alias q="exit"
 alias c="clear"
 alias py='python2'
 alias lamppon='sudo /opt/lampp/lampp start'
 alias lamppoff='sudo /opt/lampp/lampp stop'
 alias lamppre='sudo /opt/lampp/lampp restart'
+alias ..='cd ..'
+alias htdocs='cd /opt/lampp/htdocs'
 
 # TMUX setting default
 #if [[ ! $TERM =~ screen ]]; then
@@ -114,3 +119,10 @@ alias lamppre='sudo /opt/lampp/lampp restart'
 
 #Autojump Here
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+
+if [[ -r /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+	source /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
+fi
+
+# TMUX as Default
+#if [ "$TMUX" = "" ]; then tmux; fi

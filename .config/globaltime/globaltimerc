@@ -2,7 +2,7 @@
 X-pos=0
 Y-pos=0
 Decorations=1
-Expand=0
+Expand=1
 tz=/etc/localtime
 
 [Localtime]

@@ -1,14 +1,14 @@
 # Custom styles
 
 style "gtk-theme-config-panel" {
-	bg[NORMAL] = "#555753"
-	bg[PRELIGHT] = shade(1.1,"#555753")
-	bg[ACTIVE] = shade(0.9,"#555753")
-	bg[SELECTED] = shade(0.97,"#555753")
-	fg[NORMAL] = "#888a85"
-	fg[PRELIGHT] = "#888a85"
-	fg[SELECTED] = "#888a85"
-	fg[ACTIVE] = "#888a85"
+	bg[NORMAL] = "#2e3436"
+	bg[PRELIGHT] = shade(1.1,"#2e3436")
+	bg[ACTIVE] = shade(0.9,"#2e3436")
+	bg[SELECTED] = shade(0.97,"#2e3436")
+	fg[NORMAL] = "#eeeeec"
+	fg[PRELIGHT] = "#eeeeec"
+	fg[SELECTED] = "#eeeeec"
+	fg[ACTIVE] = "#eeeeec"
 }
 
 widget "*PanelWidget*" style "gtk-theme-config-panel"

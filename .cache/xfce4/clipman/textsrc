@@ -1,2 +1,0 @@
-[texts]
-texts=/home/mohammad/Downloads/arch_linux___kiss_by_abhinandh-d4exikc.png;https://aur.archlinux.org/numix-circle-icon-theme-git.git;numix-circle-icon-theme-git.;/home/mohammad/Downloads/numix-circle-icon-theme-git;=> ERROR: 'pacman' failed to install missing dependencies.\n;sudo pacman -Syy ;pacman -Sy pkg;/home/mohammad/Downloads/numix-bevel-icon-theme;https://github.com/zainulirfan/proj.git;git remote add origin https://github.com/zainulirfan/proj.git;
