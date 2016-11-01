@@ -1,3 +1,7 @@
+/home/mohammad/.config/xfce4/panel/battery-8.rc
+/home/mohammad/.config/xfce4/terminal/terminalrc
+/home/mohammad/.config/htop/htoprc
+/home/mohammad/.vimrc
 /home/mohammad/.proj/c.py
 /home/mohammad/.zshrc
 /home/mohammad/.proj/a.py
@@ -5,7 +9,6 @@
 /opt/lampp/htdocs/lar-app/artisan
 /opt/lampp/htdocs/lar-app/readme.md
 /opt/lampp/htdocs/lar-app/server.php
-/home/mohammad/.vimrc
 /home/mohammad/Documents/sheetshet-emmet.pdf
 /home/mohammad/tmux
 /home/mohammad/.tmux.conf

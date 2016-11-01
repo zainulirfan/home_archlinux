@@ -2,6 +2,9 @@
 
 <channel name="accessibility" version="1.0">
   <property name="SlowKeys" type="bool" value="false"/>
-  <property name="BounceKeys" type="bool" value="false"/>
-  <property name="MouseKeys" type="bool" value="false"/>
+  <property name="BounceKeys" type="bool" value="false">
+    <property name="Delay" type="int" value="888"/>
+  </property>
+  <property name="MouseKeys" type="bool" value="true"/>
+  <property name="StickyKeys" type="bool" value="false"/>
 </channel>

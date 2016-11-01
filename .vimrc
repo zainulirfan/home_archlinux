@@ -82,8 +82,7 @@ let g:bufExplorerSplitRight=1
 nmap <space>. :UndotreeToggle<CR>
 
 " Nerd Tree
-"open otomatic
-"autocmd StdinReadPre * let s:std_in=1
+ autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "close
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -93,6 +92,10 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_theme='papercolor'
+"let g:airline_theme='wombat'
+"let g:airline_theme='bubblegum'
+"let g:airline_theme='molokai'
+"let g:airline_theme='sol'
 
 "One Theme Here
 "let g:airline_theme='one'
@@ -118,7 +121,6 @@ nmap <space>p :PluginInstall<CR>
 nmap <space>m :setf<space>
 nmap <space> :
 imap <space><space> <esc>
-nmap <space>c :PluginInstall<CR>
 nmap <space>so :source %<CR>
 nmap <space>ve :e ~/.vimrc<CR>
 nmap <space>ve! :e! ~/.vimrc<CR>

@@ -1,11 +1,22 @@
 LibreOffice PspFontCacheFile format 6
+FontCacheDirectory:1477839527:/usr/share/fonts
+File:Droid Sans Mono for Powerline Nerd Font Complete.otf
+2;1
+DroidSansMonoForPowerline Nerd Font
+0;DroidSansMonoForPowerlineNerdFontComplete - ;0;5;5;2;65535;928;235;174;0;3137;1163;3137;1163;0;0;0;65544
+
+File:PowerlineSymbols.otf
+2;1
+PowerlineSymbols
+0;PowerlineSymbols;0;6;5;1;65535;952;183;90;0;573;1135;573;1135;0;0;0;65536;Medium
+
 FontCacheDirectory:1476381933:/usr/lib/libreoffice/share/fonts/truetype
 File:opens___.ttf
 2;1
 OpenSymbol
 0;OpenSymbol;0;5;5;2;65535;916;312;184;0;1262;1228;1262;1228;0;0;0;8;Regular
 
-FontCacheDirectory:1477448923:/usr/share/fonts/OTF
+FontCacheDirectory:1477907999:/usr/share/fonts/OTF
 File:Z003-MediumItalic.otf
 2;1
 Z003
@@ -86,10 +97,10 @@ File:SyrCOMJerusalemItalic.otf
 Serto Jerusalem
 0;SertoJerusalemItalic;2;5;5;2;65535;761;316;161;0;1353;1077;1353;1077;0;0;0;12;Italic
 
-File:Meslo LG S Regular for Powerline.otf
+File:SyrCOMJerusalemBold.otf
 2;1
-Meslo LG S for Powerline
-0;MesloLGS-RegularForPowerline;0;5;5;1;65535;977;284;189;0;1060;1261;1060;1261;0;0;0;65536;RegularForPowerline
+Serto Jerusalem
+0;SertoJerusalemBold;0;8;5;2;65535;761;316;161;0;1255;1077;1255;1077;0;0;0;12;Bold
 
 File:Meslo LG S DZ Regular for Powerline.otf
 2;1
@@ -130,11 +141,6 @@ File:SyrCOMAdiabene.otf
 2;1
 East Syriac Adiabene
 0;EastSyriacAdiabene;0;5;5;2;65535;761;349;166;0;1000;1110;1000;1110;0;0;0;12;Regular
-
-File:SyrCOMJerusalemBold.otf
-2;1
-Serto Jerusalem
-0;SertoJerusalemBold;0;8;5;2;65535;761;316;161;0;1255;1077;1255;1077;0;0;0;12;Bold
 
 File:SyrCOMNisibin.otf
 2;1
@@ -231,6 +237,11 @@ File:SyrCOMMidyat.otf
 Estrangelo Midyat
 0;EstrangeloMidyat;0;5;5;2;65535;761;316;161;0;1231;1077;1231;1077;0;0;0;12;Regular
 
+File:Meslo LG S Regular for Powerline.otf
+2;1
+Meslo LG S for Powerline
+0;MesloLGS-RegularForPowerline;0;5;5;1;65535;977;284;189;0;1060;1261;1060;1261;0;0;0;65536;RegularForPowerline
+
 File:C059-BdIta.otf
 2;1
 C059
@@ -241,15 +252,15 @@ File:NimbusMonoPS-Regular.otf
 Nimbus Mono PS
 0;NimbusMonoPS-Regular;0;5;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Regular
 
-File:URWGothic-Demi.otf
-2;1
-URW Gothic
-0;URWGothic-Demi;0;7;5;2;65535;739;261;200;0;1392;1000;1392;1000;0;0;0;65540;Demi
-
-File:NimbusSansNarrow-Bold.otf
+File:NimbusSansNarrow-BdOblique.otf
 2;1
 Nimbus Sans Narrow
-0;NimbusSansNarrow-Bold;0;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold
+0;NimbusSansNarrow-BoldOblique;1;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold Oblique
+
+File:NimbusMonoPS-Bold.otf
+2;1
+Nimbus Mono PS
+0;NimbusMonoPS-Bold;0;8;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Bold
 
 File:GohaTibebZemen.otf
 2;1
@@ -261,20 +272,25 @@ File:NimbusSans-Regular.otf
 Nimbus Sans
 0;NimbusSans-Regular;0;5;5;2;65535;729;271;200;0;1242;1000;1242;1000;0;0;0;65540;Regular
 
-File:NimbusMonoPS-Bold.otf
-2;1
-Nimbus Mono PS
-0;NimbusMonoPS-Bold;0;8;5;1;65535;603;397;200;0;922;1000;922;1000;0;0;0;65540;Bold
-
 File:NimbusSansNarrow-Regular.otf
 2;1
 Nimbus Sans Narrow
 0;NimbusSansNarrow-Regular;0;5;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Regular
 
-File:NimbusSansNarrow-BdOblique.otf
+File:URWGothic-Demi.otf
+2;1
+URW Gothic
+0;URWGothic-Demi;0;7;5;2;65535;739;261;200;0;1392;1000;1392;1000;0;0;0;65540;Demi
+
+File:NimbusSansNarrow-Bold.otf
 2;1
 Nimbus Sans Narrow
-0;NimbusSansNarrow-BoldOblique;1;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold Oblique
+0;NimbusSansNarrow-Bold;0;8;4;2;65535;718;282;200;0;1144;1000;1144;1000;0;0;0;65540;Bold
+
+File:FontAwesome.otf
+2;1
+FontAwesome
+0;FontAwesome;0;5;5;2;65535;857;142;149;0;1286;999;1286;999;0;0;0;65536;Regular
 
 File:Meslo LG M DZ Regular for Powerline.otf
 2;1
@@ -306,16 +322,6 @@ File:P052-Bold.otf
 P052
 0;P052-Bold;0;8;5;2;65535;720;280;200;0;1267;1000;1267;1000;0;0;0;65540;Bold
 
-File:P052-Roman.otf
-2;1
-P052
-0;P052-Roman;0;5;5;2;65535;726;274;200;0;1246;1000;1246;1000;0;0;0;65540;Roman
-
-File:SyrCOMBatnanBold.otf
-2;1
-Serto Batnan
-0;SertoBatnanBold;0;8;5;2;65535;761;316;161;0;1243;1077;1243;1077;0;0;0;12;Bold
-
 File:NimbusRoman-Italic.otf
 2;1
 Nimbus Roman
@@ -326,146 +332,150 @@ File:P052-BoldItalic.otf
 P052
 0;P052-BoldItalic;2;8;5;2;65535;726;274;200;0;1304;1000;1304;1000;0;0;0;65540;Bold Italic
 
-FontCacheDirectory:1471662861:/usr/share/fonts/cantarell
-File:Cantarell-Bold.otf
+File:P052-Roman.otf
 2;1
-Cantarell
-0;Cantarell-Bold;0;8;5;2;65535;964;293;188;0;1645;1257;1645;1257;0;0;0;65536;Bold
+P052
+0;P052-Roman;0;5;5;2;65535;726;274;200;0;1246;1000;1246;1000;0;0;0;65540;Roman
 
-File:Cantarell-BoldOblique.otf
+File:SyrCOMBatnanBold.otf
+2;1
+Serto Batnan
+0;SertoBatnanBold;0;8;5;2;65535;761;316;161;0;1243;1077;1243;1077;0;0;0;12;Bold
+
+FontCacheDirectory:1471662861:/usr/share/fonts/cantarell
+File:Cantarell-Regular.otf
 2;1
 Cantarell
-0;Cantarell-BoldOblique;1;8;5;2;65535;964;293;188;0;1697;1257;1697;1257;0;0;0;65536;BoldOblique
+0;Cantarell-Regular;0;5;5;2;65535;964;293;188;0;1445;1257;1445;1257;0;0;0;65536;Regular
 
 File:Cantarell-Oblique.otf
 2;1
 Cantarell
 0;Cantarell-Oblique;1;5;5;2;65535;964;293;188;0;1478;1257;1478;1257;0;0;0;65536;Oblique
 
-File:Cantarell-Regular.otf
+File:Cantarell-BoldOblique.otf
 2;1
 Cantarell
-0;Cantarell-Regular;0;5;5;2;65535;964;293;188;0;1445;1257;1445;1257;0;0;0;65536;Regular
+0;Cantarell-BoldOblique;1;8;5;2;65535;964;293;188;0;1697;1257;1697;1257;0;0;0;65536;BoldOblique
 
-FontCacheDirectory:1477309409:/usr/share/fonts/TTF
-File:GohaTibebZemen.ttf
+File:Cantarell-Bold.otf
 2;1
-Goha-Tibeb Zemen
-0;GohaTibebZemen;0;6;5;2;65535;820;180;150;0;1223;1000;1223;1000;0;0;0;0;Regular
+Cantarell
+0;Cantarell-Bold;0;8;5;2;65535;964;293;188;0;1645;1257;1645;1257;0;0;0;65536;Bold
 
-File:DejaVuSerif.ttf
-2;1
-DejaVu Serif
-0;DejaVuSerif;0;5;5;2;65535;928;235;174;0;2874;1163;2874;1163;0;0;0;0;Book
-
-File:DejaVuSerifCondensed-Bold.ttf
-2;1
-DejaVu Serif Condensed
-0;DejaVuSerifCondensed-Bold;0;8;4;2;65535;938;235;175;0;2368;1173;2368;1173;0;0;0;0;Condensed Bold
-
-File:DejaVuSerif-BoldItalic.ttf
-2;1
-DejaVu Serif
-0;DejaVuSerif-BoldItalic;2;8;5;2;65535;938;235;175;0;2658;1173;2658;1173;0;0;0;0;Bold Italic
-
-File:DejaVuSerifCondensed-BoldItalic.ttf
-2;1
-DejaVu Serif Condensed
-0;DejaVuSerifCondensed-BoldItalic;2;8;4;2;65535;938;235;175;0;2393;1173;2393;1173;0;0;0;0;Condensed Bold Italic
-
-File:DejaVuSerifCondensed-Italic.ttf
-2;1
-DejaVu Serif Condensed
-0;DejaVuSerifCondensed-Italic;2;5;4;2;65535;928;235;174;0;2235;1163;2235;1163;0;0;0;0;Condensed Italic
-
-File:DejaVuSerif-Italic.ttf
-2;1
-DejaVu Serif
-0;DejaVuSerif-Italic;2;5;5;2;65535;928;235;174;0;2483;1163;2483;1163;0;0;0;0;Italic
-
-File:DejaVuSansMono.ttf
+FontCacheDirectory:1477907900:/usr/share/fonts/TTF
+File:DejaVuSansMono-Bold.ttf
 2;1
 DejaVu Sans Mono
-0;DejaVuSansMono;0;5;5;1;65535;928;235;174;0;1274;1163;1274;1163;0;0;0;0;Book
-
-File:DejaVuSansMono-BoldOblique.ttf
-2;1
-DejaVu Sans Mono
-0;DejaVuSansMono-BoldOblique;1;8;5;1;65535;928;235;174;0;1232;1163;1232;1163;0;0;0;0;Bold Oblique
-
-File:DejaVuSansCondensed-Bold.ttf
-2;1
-DejaVu Sans Condensed
-0;DejaVuSansCondensed-Bold;0;8;4;2;65535;928;235;174;0;2739;1163;2739;1163;0;0;0;0;Condensed Bold
-
-File:DejaVuSansCondensed.ttf
-2;1
-DejaVu Sans Condensed
-0;DejaVuSansCondensed;0;5;4;2;65535;928;235;174;1;2532;1163;2532;1163;0;0;0;0;Condensed
-
-File:DejaVuSerifCondensed.ttf
-2;1
-DejaVu Serif Condensed
-0;DejaVuSerifCondensed;0;5;4;2;65535;928;235;174;0;2587;1163;2587;1163;0;0;0;0;Condensed
-
-File:DejaVuSansMono-Oblique.ttf
-2;1
-DejaVu Sans Mono
-0;DejaVuSansMono-Oblique;1;5;5;1;65535;928;235;174;0;1148;1163;1148;1163;0;0;0;0;Oblique
-
-File:DejaVuSans-Bold.ttf
-2;1
-DejaVu Sans
-0;DejaVuSans-Bold;0;8;5;2;65535;928;235;174;0;3044;1163;3044;1163;0;0;0;0;Bold
-
-File:DejaVuSans.ttf
-2;1
-DejaVu Sans
-0;DejaVuSans;0;5;5;2;65535;928;235;174;1;2813;1163;2813;1163;0;0;0;0;Book
-
-File:DejaVuSans-Oblique.ttf
-2;1
-DejaVu Sans
-0;DejaVuSans-Oblique;1;5;5;2;65535;928;235;174;0;2674;1163;2674;1163;0;0;0;0;Oblique
-
-File:DejaVuSans-ExtraLight.ttf
-2;1
-DejaVu Sans Light
-0;DejaVuSans-ExtraLight;0;2;5;2;65535;928;235;174;0;2391;1163;2391;1163;0;0;0;0;ExtraLight
-
-File:DejaVuSansCondensed-Oblique.ttf
-2;1
-DejaVu Sans Condensed
-0;DejaVuSansCondensed-Oblique;1;5;4;2;65535;928;235;174;0;2407;1163;2407;1163;0;0;0;0;Condensed Oblique
-
-File:DejaVuSansCondensed-BoldOblique.ttf
-2;1
-DejaVu Sans Condensed
-0;DejaVuSansCondensed-BoldOblique;1;8;4;2;65535;928;235;174;0;2758;1163;2758;1163;0;0;0;0;Condensed Bold Oblique
+0;DejaVuSansMono-Bold;0;8;5;1;65535;928;235;174;0;1176;1163;1176;1163;0;0;0;0;Bold
 
 File:DejaVuSerif-Bold.ttf
 2;1
 DejaVu Serif
 0;DejaVuSerif-Bold;0;8;5;2;65535;938;235;175;0;2630;1173;2630;1173;0;0;0;0;Bold
 
+File:DejaVuSansCondensed-Oblique.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed-Oblique;1;5;4;2;65535;928;235;174;0;2407;1163;2407;1163;0;0;0;0;Condensed Oblique
+
+File:DejaVuSans-ExtraLight.ttf
+2;1
+DejaVu Sans Light
+0;DejaVuSans-ExtraLight;0;2;5;2;65535;928;235;174;0;2391;1163;2391;1163;0;0;0;0;ExtraLight
+
+File:DejaVuSans.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans;0;5;5;2;65535;928;235;174;1;2813;1163;2813;1163;0;0;0;0;Book
+
+File:DejaVuSansCondensed-Bold.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed-Bold;0;8;4;2;65535;928;235;174;0;2739;1163;2739;1163;0;0;0;0;Condensed Bold
+
+File:DejaVuSans-Oblique.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans-Oblique;1;5;5;2;65535;928;235;174;0;2674;1163;2674;1163;0;0;0;0;Oblique
+
+File:DejaVuSansCondensed.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed;0;5;4;2;65535;928;235;174;1;2532;1163;2532;1163;0;0;0;0;Condensed
+
+File:DejaVuSans-Bold.ttf
+2;1
+DejaVu Sans
+0;DejaVuSans-Bold;0;8;5;2;65535;928;235;174;0;3044;1163;3044;1163;0;0;0;0;Bold
+
+File:DejaVuSansMono-Oblique.ttf
+2;1
+DejaVu Sans Mono
+0;DejaVuSansMono-Oblique;1;5;5;1;65535;928;235;174;0;1148;1163;1148;1163;0;0;0;0;Oblique
+
 File:DejaVuSans-BoldOblique.ttf
 2;1
 DejaVu Sans
 0;DejaVuSans-BoldOblique;1;8;5;2;65535;928;235;174;0;3064;1163;3064;1163;0;0;0;0;Bold Oblique
 
-File:DejaVuSansMono-Bold.ttf
+File:DejaVuSansCondensed-BoldOblique.ttf
+2;1
+DejaVu Sans Condensed
+0;DejaVuSansCondensed-BoldOblique;1;8;4;2;65535;928;235;174;0;2758;1163;2758;1163;0;0;0;0;Condensed Bold Oblique
+
+File:DejaVuSerifCondensed.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed;0;5;4;2;65535;928;235;174;0;2587;1163;2587;1163;0;0;0;0;Condensed
+
+File:DejaVuSansMono-BoldOblique.ttf
 2;1
 DejaVu Sans Mono
-0;DejaVuSansMono-Bold;0;8;5;1;65535;928;235;174;0;1176;1163;1176;1163;0;0;0;0;Bold
+0;DejaVuSansMono-BoldOblique;1;8;5;1;65535;928;235;174;0;1232;1163;1232;1163;0;0;0;0;Bold Oblique
 
-FontCacheDirectory:1477839527:/usr/share/fonts
-File:PowerlineSymbols.otf
+File:DejaVuSansMono.ttf
 2;1
-PowerlineSymbols
-0;PowerlineSymbols;0;6;5;1;65535;952;183;90;0;573;1135;573;1135;0;0;0;65536;Medium
+DejaVu Sans Mono
+0;DejaVuSansMono;0;5;5;1;65535;928;235;174;0;1274;1163;1274;1163;0;0;0;0;Book
 
-File:Droid Sans Mono for Powerline Nerd Font Complete.otf
+File:DejaVuSerif-Italic.ttf
 2;1
-DroidSansMonoForPowerline Nerd Font
-0;DroidSansMonoForPowerlineNerdFontComplete - ;0;5;5;2;65535;928;235;174;0;3137;1163;3137;1163;0;0;0;65544
+DejaVu Serif
+0;DejaVuSerif-Italic;2;5;5;2;65535;928;235;174;0;2483;1163;2483;1163;0;0;0;0;Italic
+
+File:DejaVuSerifCondensed-Italic.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed-Italic;2;5;4;2;65535;928;235;174;0;2235;1163;2235;1163;0;0;0;0;Condensed Italic
+
+File:DejaVuSerif-BoldItalic.ttf
+2;1
+DejaVu Serif
+0;DejaVuSerif-BoldItalic;2;8;5;2;65535;938;235;175;0;2658;1173;2658;1173;0;0;0;0;Bold Italic
+
+File:DejaVuSerifCondensed-Bold.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed-Bold;0;8;4;2;65535;938;235;175;0;2368;1173;2368;1173;0;0;0;0;Condensed Bold
+
+File:GohaTibebZemen.ttf
+2;1
+Goha-Tibeb Zemen
+0;GohaTibebZemen;0;6;5;2;65535;820;180;150;0;1223;1000;1223;1000;0;0;0;0;Regular
+
+File:DejaVuSerifCondensed-BoldItalic.ttf
+2;1
+DejaVu Serif Condensed
+0;DejaVuSerifCondensed-BoldItalic;2;8;4;2;65535;938;235;175;0;2393;1173;2393;1173;0;0;0;0;Condensed Bold Italic
+
+File:DejaVuSerif.ttf
+2;1
+DejaVu Serif
+0;DejaVuSerif;0;5;5;2;65535;928;235;174;0;2874;1163;2874;1163;0;0;0;0;Book
+
+File:fontawesome-webfont.ttf
+2;1
+FontAwesome
+0;FontAwesome;0;5;5;2;65535;857;142;149;0;1286;999;1286;999;0;0;0;0;Regular
 

@@ -1,0 +1,16 @@
+; FLTK preferences file format 1.0
+; vendor: www.coolhall.com
+; application: bracket
+
+[.]
+
+
+[./RecentDirs]
+
+Directory0:/opt/bracket/sample_images/
+Directory1:/mnt/win10/
+Directory2:/mnt/mohammad/
+Directory3:/mnt/mohammad/AyoBangun/
+
+[./Preferences]
+

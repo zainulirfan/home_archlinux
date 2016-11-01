@@ -1,6 +1,6 @@
 log file opened
 TRACE[xfsm-manager.c:582] xfsm_manager_load_session(): loading Session: Default
-TRACE[xfsm-properties.c:280] xfsm_properties_load(): Loading properties for client 2d0e8acbb-0ec9-454a-9cae-8c9a07978576
+TRACE[xfsm-properties.c:280] xfsm_properties_load(): Loading properties for client 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405
 TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (CloneCommand)
 TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (RestartCommand)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /)
@@ -17,20 +17,20 @@ TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Progra
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 35)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
-TRACE[xfsm-properties.c:280] xfsm_properties_load(): Loading properties for client 2970f012f-34e8-4639-a102-a5bc9a214594
-TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (CloneCommand)
-TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (RestartCommand)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-panel)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
 TRACE[xfsm-properties.c:280] xfsm_properties_load(): Loading properties for client 26f9667c8-7e70-4c1c-b7e9-d848ab212439
 TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (CloneCommand)
 TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (RestartCommand)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /etc/xdg/autostart/xfsettingsd.desktop)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfsettingsd)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
+TRACE[xfsm-properties.c:280] xfsm_properties_load(): Loading properties for client 2970f012f-34e8-4639-a102-a5bc9a214594
+TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (CloneCommand)
+TRACE[xfsm-properties.c:289] xfsm_properties_load(): -> Set strv (RestartCommand)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-panel)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
@@ -54,6 +54,20 @@ TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartS
 TRACE[xfsm-manager.c:610] xfsm_manager_load_session(): Finished loading clients from rc file
 TRACE[xfsm-manager.c:728] xfsm_manager_load_settings(): Session "Default" loaded successfully.
 
+TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
+TRACE[xfsm-startup.c:635] xfsm_startup_autostart_xdg(): X-XFCE-Autostart-Override set, launching
+TRACE[xfsm-startup.c:681] xfsm_startup_autostart_xdg(): start_at_spi (a11y support), showing
+TRACE[xfsm-startup.c:712] xfsm_startup_autostart_xdg(): Autostart: running command "/usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately"
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
+TRACE[xfsm-startup.c:866] xfsm_startup_at(): Waiting for at-spi to register...
 TRACE[xfsm-startup.c:1040] xfsm_startup_session_next_prio_group(): Starting apps in prio group 15
 TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 28c9592af-abbd-486b-b705-15f07c7e5e7f started
 TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 14, received NEW CLIENT
@@ -65,7 +79,7 @@ TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 223
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfwm4)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 385)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4185)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 15)
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (DiscardCommand)
@@ -74,57 +88,61 @@ TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 15, received NEW CLIE
 TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 15, received REGISTER CLIENT [Previous Id = 223ce4b46-9b5f-477e-aa23-f81ae787b7ed]
 
 TRACE[xfsm-startup.c:1040] xfsm_startup_session_next_prio_group(): Starting apps in prio group 25
-TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 2970f012f-34e8-4639-a102-a5bc9a214594 started
 TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 26f9667c8-7e70-4c1c-b7e9-d848ab212439 started
+TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 2970f012f-34e8-4639-a102-a5bc9a214594 started
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (DiscardCommand)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, Thunar)
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 24)
-TRACE[xfsm-startup.c:1120] xfsm_startup_child_watch(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439, PID 388 exited with status 0
+TRACE[xfsm-startup.c:1120] xfsm_startup_child_watch(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439, PID 4191 exited with status 0
+TRACE[xfsm-startup.c:1129] xfsm_startup_child_watch(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439 died while starting up
+TRACE[xfsm-startup.c:1162] xfsm_startup_handle_failed_startup(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439 failed to start
+TRACE[xfsm-manager.c:404] xfsm_manager_handle_failed_properties(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439 disconnected, restarting
+TRACE[xfsm-startup.c:1120] xfsm_startup_child_watch(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439, PID 4194 exited with status 0
 TRACE[xfsm-startup.c:1129] xfsm_startup_child_watch(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439 died while starting up
 TRACE[xfsm-startup.c:1162] xfsm_startup_handle_failed_startup(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439 failed to start
 TRACE[xfsm-manager.c:404] xfsm_manager_handle_failed_properties(): Client Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439 disconnected, restarting
 TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 16, received NEW CLIENT
 
-TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 16, received REGISTER CLIENT [Previous Id = 2970f012f-34e8-4639-a102-a5bc9a214594]
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 16, received REGISTER CLIENT [Previous Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439]
 
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-panel)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 387)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
-TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 17, received NEW CLIENT
-
-TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 17, received REGISTER CLIENT [Previous Id = 26f9667c8-7e70-4c1c-b7e9-d848ab212439]
-
-TRACE[xfsm-startup.c:1040] xfsm_startup_session_next_prio_group(): Starting apps in prio group 35
-TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 29a2bc536-482f-4b89-aaa1-5c5264daf3e7 started
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfsettingsd)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 389)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4193)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /etc/xdg/autostart/xfsettingsd.desktop)
+TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 17, received NEW CLIENT
+
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 17, received REGISTER CLIENT [Previous Id = 2970f012f-34e8-4639-a102-a5bc9a214594]
+
+TRACE[xfsm-startup.c:1040] xfsm_startup_session_next_prio_group(): Starting apps in prio group 35
+TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 29a2bc536-482f-4b89-aaa1-5c5264daf3e7 started
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-panel)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4192)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
+TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 25)
 TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 18, received NEW CLIENT
 
 TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 18, received REGISTER CLIENT [Previous Id = 29a2bc536-482f-4b89-aaa1-5c5264daf3e7]
 
 TRACE[xfsm-startup.c:1040] xfsm_startup_session_next_prio_group(): Starting apps in prio group 50
-TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 2d0e8acbb-0ec9-454a-9cae-8c9a07978576 started
+TRACE[xfsm-startup.c:1089] xfsm_startup_session_next_prio_group(): client id 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405 started
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfdesktop)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 2)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 391)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4200)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 35)
-TRACE[xfsm-startup.c:1120] xfsm_startup_child_watch(): Client Id = 2d0e8acbb-0ec9-454a-9cae-8c9a07978576, PID 395 exited with status 0
-TRACE[xfsm-startup.c:1129] xfsm_startup_child_watch(): Client Id = 2d0e8acbb-0ec9-454a-9cae-8c9a07978576 died while starting up
-TRACE[xfsm-startup.c:1162] xfsm_startup_handle_failed_startup(): Client Id = 2d0e8acbb-0ec9-454a-9cae-8c9a07978576 failed to start
-TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2d0e8acbb-0ec9-454a-9cae-8c9a07978576 exited, removing from session.
+TRACE[xfsm-startup.c:1120] xfsm_startup_child_watch(): Client Id = 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405, PID 4205 exited with status 0
+TRACE[xfsm-startup.c:1129] xfsm_startup_child_watch(): Client Id = 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405 died while starting up
+TRACE[xfsm-startup.c:1162] xfsm_startup_handle_failed_startup(): Client Id = 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405 failed to start
+TRACE[xfsm-manager.c:428] xfsm_manager_handle_failed_properties(): Client Id 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405 exited, removing from session.
 TRACE[xfsm-startup.c:1017] xfsm_startup_session_continue(): Nothing started and nothing to start, moving to autostart items
 TRACE[xfsm-startup.c:629] xfsm_startup_autostart_xdg(): hidden set
 TRACE[xfsm-startup.c:635] xfsm_startup_autostart_xdg(): X-XFCE-Autostart-Override set, launching
@@ -155,9 +173,9 @@ state is now XFSM_MANAGER_IDLE
 TRACE[xfsm-manager.c:344] xfsm_manager_restore_active_workspace(): Attempting to restore Screen0_ActiveWorkspace
 TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 19, received NEW CLIENT
 
-TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = 2d0e8acbb-0ec9-454a-9cae-8c9a07978576]
+TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405]
 
-TRACE[xfsm-manager.c:916] xfsm_manager_register_client(): Client Id = 2d0e8acbb-0ec9-454a-9cae-8c9a07978576 registering, failed to find matching properties
+TRACE[xfsm-manager.c:916] xfsm_manager_register_client(): Client Id = 2a0c8f2b4-622a-4c9b-b61f-1e81fd13b405 registering, failed to find matching properties
 TRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
 
 TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 19, received REGISTER CLIENT [Previous Id = None]
@@ -167,14 +185,14 @@ TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REG
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-power-manager)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 401)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4209)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /etc/xdg/autostart/xfce4-power-manager.desktop)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-power-manager)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 419)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4221)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /etc/xdg/autostart/xfce4-power-manager.desktop)
@@ -185,57 +203,15 @@ TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REG
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 453)
+TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4283)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
 TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
 TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
+TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
-TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2ef121d5a-d3fc-4ce3-a7f6-7e412aa65519, received SAVE YOURSELF DONE [Success = True]
-
-TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (RestartCommand)
 TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
-TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2bf09ebbf-b3e6-40ae-a0be-62d0fa1938fc, received SAVE YOURSELF DONE [Success = True]
+TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2b72560c3-cb0f-4da7-8890-ef4da1a85016, received SAVE YOURSELF DONE [Success = True]
 
-TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
-
-TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
-
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 1360)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
-TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
-TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 24f4109c0-61f1-483f-aa7b-447bd898c289, received SAVE YOURSELF DONE [Success = True]
-
-TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
-
-TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
-
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 1581)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
-TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
-TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2cee79261-1f6a-440b-b948-9183de671490, received SAVE YOURSELF DONE [Success = True]
-
-TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:162] sm_new_client(): ICE connection fd = 20, received NEW CLIENT
-
-TRACE[sm-layer.c:213] sm_register_client(): ICE connection fd = 20, received REGISTER CLIENT [Previous Id = None]
-
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (Program, xfce4-terminal)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (UserID, mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (RestartStyleHint, 0)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (ProcessID, 4937)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (CurrentDirectory, /home/mohammad)
-TRACE[xfsm-properties.c:555] xfsm_properties_set_uchar(): -> Set uchar (_GSM_Priority, 50)
-TRACE[xfsm-properties.c:489] xfsm_properties_set_string(): -> Set string (_GSM_DesktopFile, /usr/share/applications/xfce4-terminal.desktop)
-TRACE[xfsm-properties.c:629] xfsm_properties_set_from_smprop(): -> Set strv (CloneCommand)
-TRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2ca12252f-4bb9-4211-85d3-54db65a4b770, received SAVE YOURSELF DONE [Success = True]
+TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): enteringTRACE[sm-layer.c:304] sm_save_yourself_done(): Client Id = 2a0957265-a68c-4aa4-b359-36ba362467c9, received SAVE YOURSELF DONE [Success = True]
 
 TRACE[xfsm-manager.c:1295] xfsm_manager_save_yourself_done(): entering
